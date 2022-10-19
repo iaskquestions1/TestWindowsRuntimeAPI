@@ -155,18 +155,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AdaptiveStreamer.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="MediaHelpers.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SimpleAdaptiveStreamer.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WindowsProject1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AdaptiveStreamer.cpp" />
-    <ClCompile Include="MediaHelpers.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SimpleAdaptiveStreamer.cpp" />
     <ClCompile Include="WindowsProject1.cpp" />
   </ItemGroup>
   <ItemGroup>

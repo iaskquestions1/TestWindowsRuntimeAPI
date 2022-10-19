@@ -4,7 +4,7 @@
 #include "framework.h"
 #include "WindowsProject1.h"
 
-#include "AdaptiveStreamer.h"
+#include "SimpleAdaptiveStreamer.h"
 
 #define MAX_LOADSTRING 100
 
@@ -29,12 +29,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     // TODO: Place code here.
     CoInitialize(nullptr);
-    AdaptiveStreamer streamer;
+    SimpleAdaptiveStreamer streamer;
     streamer.Initialize();
-    //streamer.LoadContent(L"http://localhost:9001/filename.m3u8");
     streamer.LoadContent(L"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8");
     streamer.Play();
-
+    
     // Initialize global strings
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_WINDOWSPROJECT1, szWindowClass, MAX_LOADSTRING);

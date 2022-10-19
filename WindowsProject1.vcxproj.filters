@@ -27,13 +27,10 @@
     <ClInclude Include="WindowsProject1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AdaptiveStreamer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MediaHelpers.h">
+    <ClInclude Include="SimpleAdaptiveStreamer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,13 +38,10 @@
     <ClCompile Include="WindowsProject1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AdaptiveStreamer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MediaHelpers.cpp">
+    <ClCompile Include="SimpleAdaptiveStreamer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
